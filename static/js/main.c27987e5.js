@@ -1,0 +1,2 @@
+(()=>{var e=Math.floor(6*Math.random()+1),r="images/"+("dice"+e+".png");document.querySelectorAll("img")[0].setAttribute("src",r);var t=Math.floor(6*Math.random()+1),a="images/"+("dice"+t+".png");document.querySelectorAll("img")[1].setAttribute("src",a),document.querySelector("h1").innerHTML=e>t?"Player 1 is winner":t>e?"Player 2 is winner":"Draw"})();
+//# sourceMappingURL=main.c27987e5.js.map
